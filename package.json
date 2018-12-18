@@ -1,10 +1,16 @@
 {
-  "name" : "A-La-Belle-Courgette",
-  "version" : "0.0.1",
-  "scripts" : {
-    "start" : "node website.js"
+  "name": "A-La-Belle-Courgette",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node website.js"
   },
-  "dependencies" : {
-    "express" : "latest"
+  "dependencies": {
+    "express":"*",
+
+"body-parser":"*",
+
+"bcrypt": "^0.8.5"
   }
 }
+
+
