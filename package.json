@@ -1,11 +1,12 @@
 {
   "name": "A-La-Belle-Courgette",
   "version": "0.0.1",
+  "main" : "website.js",
   "scripts": {
     "start": "node website.js"
   },
   "dependencies": {
-    "express":"*"
+    "express": "^4.15.3"	
   }
 }
 
