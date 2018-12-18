@@ -5,11 +5,7 @@
     "start": "node website.js"
   },
   "dependencies": {
-    "express":"*",
-
-"body-parser":"*",
-
-"bcrypt": "^0.8.5"
+    "express":"*"
   }
 }
 
