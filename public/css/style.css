@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+   body {
+    background: #ccc;
+  }
+}
 
 
 body {
     background-color: white;
     width: 100%;
-    font-family: Montserrat, sans-serif;
+    font-family: Rubik , sans-serif;
 }
 
 
-#title_page {
-	position: fixed;
-    top: 50%;
-    left: 50%;
-    width:30em;
-    height:18em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+p {
+  font-family: Roboto, sans-serif;
 }
 
+.logo {
 
-#title_page h1 {
-	font-size: 500%;
-	color: #3CC37E;
-
-}
-
-#title_page {
-	text-align:  center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 3%;
 }
 
 
@@ -37,9 +37,6 @@ color: white;
 margin-top: 10px;
 }
 
-#button_contact:hover {
-background-color: #3CC37E;
-}
 
 #navbarNavAltMarkup a {
 	color: #3CC37E;
@@ -105,4 +102,48 @@ background-image: url("/images/legumes.jpg");
 
 .spacer {
     margin: 40px 40px;
+}
+
+
+#logoAndButtons{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+div > .buttonGreen{
+  height: 2em;
+  background-color: white;
+  border-style: none;
+  transition: 0.8s;
+
+  color: #3CC37E;
+  font-size: 1.8em;
+  border-radius: 15px;
+
+
+
+
+}
+
+.buttonGreen:hover{
+  background-color: #3CC37E;
+  border-style: none;
+  color: white;
+}
+
+#logoNavBar{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+
+}
+
+
+#logoNavBar:hover {
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
 }

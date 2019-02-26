@@ -24,8 +24,17 @@ router.get("/contact",function(req,res){
 });
 
 
-router.get("/newsletter",function(req,res){
-  res.sendFile(path + "newsletter.html");
+router.get("/partenaires",function(req,res){
+  res.sendFile(path + "partenaires.html");
+});
+
+router.get("/paniers",function(req,res){
+  res.sendFile(path + "paniers.html");
+});
+
+
+router.get("/alabellecourgette",function(req,res){
+  res.sendFile(path + "alabellecourgette.html");
 });
 
 

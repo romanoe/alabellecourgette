@@ -1,10 +1,10 @@
 var map = L.map('map').setView([46.560167, 6.554194], 13);
 
 var courgette = L.icon({
-    iconUrl: '/images/zucchini.svg',
+    iconUrl: '/images/courgette1.svg',
 
     iconSize:     [38, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+   
    
 });
 
