@@ -96,20 +96,7 @@ background-image: url("/images/legumes.jpg");
 }
 
 
-#logoAndButtons{
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  height: 80vh;
-  justify-content: center;
-}
 
-#buttonsHomepage{
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-}
 
 
 
@@ -141,6 +128,15 @@ display: block;
 	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
 	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
 
+}
+
+
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
 }
 
 
