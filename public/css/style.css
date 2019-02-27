@@ -107,34 +107,16 @@ background-image: url("/images/legumes.jpg");
 
 #logoAndButtons{
   display: flex;
-  width: 80%;
   margin: 0 auto;
   align-items: center;
   height: 100vh;
-
-}
-
-
-div > .buttonGreen{
-  height: 2em;
-  background-color: white;
-  border-style: none;
-  transition: 0.8s;
-
-  color: #3CC37E;
-  font-size: 1.8em;
-  border-radius: 15px;
-
-
+  justify-content: center;
 
 
 }
 
-.buttonGreen:hover{
-  background-color: #3CC37E;
-  border-style: none;
-  color: white;
-}
+
+
 
 #logoNavBar{
     -webkit-transition: -webkit-transform .8s ease-in-out;
