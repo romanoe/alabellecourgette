@@ -30,12 +30,21 @@ p {
 }
 
 
-
+.navbar  {
+  background-color: white;
+}
 
 #navbarNavAltMarkup a {
 	color: #1ECD97;
 
 }
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
 
 
 .navbar-brand {
@@ -136,7 +145,7 @@ display: block;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 
