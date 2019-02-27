@@ -133,7 +133,9 @@ background-image: url("/images/legumes.jpg");
 
 .customButton {
 display: block;
-	margin: 30px;
+	margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0;
 	width: 170px;
 	height: 70px;
 	border: 2px solid #1ECD97;
