@@ -133,8 +133,8 @@ background-image: url("/images/legumes.jpg");
 
 .customButton {
 display: block;
-	margin: 0 auto;
-	width: 250px;
+	margin: 30px;
+	width: 170px;
 	height: 70px;
 	border: 2px solid #1ECD97;
 	border-radius: 40px;
@@ -151,12 +151,6 @@ display: block;
 
 
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-}
 
 
 .customButton:hover {
