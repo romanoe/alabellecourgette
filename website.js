@@ -32,6 +32,10 @@ router.get("/paniers",function(req,res){
   res.sendFile(path + "paniers.html");
 });
 
+router.get("/participer",function(req,res){
+  res.sendFile(path + "participer.html");
+});
+
 
 router.get("/alabellecourgette",function(req,res){
   res.sendFile(path + "alabellecourgette.html");
