@@ -117,8 +117,8 @@ a:hover {
 
 .customButton {
 display: block;
-	margin-left: 22px;
-  margin-right: 22px;
+	margin-left: 18px;
+  margin-right: 18px;
   margin-top: 0;
 	width: 170px;
 	height: 70px;
@@ -136,9 +136,6 @@ display: block;
 }
 
 
-
-
-
 .customButton:hover {
 	background-color: #1ECD97;
 	color: #fff;
@@ -148,11 +145,11 @@ display: block;
 
 
 .block {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 70vh;
+    height: 60vh;
 }
 
 
