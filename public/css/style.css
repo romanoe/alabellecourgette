@@ -77,9 +77,16 @@ a:hover {
 
 .parallax-title {
     color: white;
-    margin: 0;
+    margin: 5% 0 0 0;
     font-size: 7vw;
     opacity: 0.7
+}
+
+.parallax-title2 {
+    color: white;
+    margin: 5% 0 0 0 ;
+    font-size: 7vw;
+    opacity: 0.9
 }
 
 .contact {
@@ -96,8 +103,15 @@ a:hover {
 
 }
 
+.spacer_paragraphe {
+    margin: 0% 15% 5% 15%;
 
+}
 
+.spacer_minus {
+    margin: 2% 0% 0% 0%;
+
+}
 
 
 #logoNavBar{
@@ -153,6 +167,8 @@ a:hover {
 
 
 
+
+
 .logo_partners {
-  width: 30%;
+  width: 15%;
 }
