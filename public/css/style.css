@@ -129,7 +129,7 @@ a:hover {
 .customButton {
   display: inline;
 	border: 2px solid #1ECD97;
-	border-radius: 15px;
+	border-radius: 10px;
 	background: transparent;
 	color: #1ECD97;
 	letter-spacing: 0.5px;
@@ -137,7 +137,7 @@ a:hover {
   height: 50px;
 	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
 	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
-
+  width: 200px;
 }
 
 
