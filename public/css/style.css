@@ -17,6 +17,10 @@ p {
   text-align:justify;
 }
 
+li {
+    text-align:justify;
+}
+
 .logo {
 
   display: flex;
@@ -76,7 +80,12 @@ a:hover {
 }
 
 .parallax-title {
-    color: white;
+    color:  white;
+    text-shadow:
+    -1px -1px 0 #708090,
+    1px -1px 0 #708090,
+    -1px 1px 0 #708090,
+    1px 1px 0 #708090;
     margin: 5% 0 0 0;
     font-size: 7vw;
     opacity: 0.7
@@ -84,10 +93,16 @@ a:hover {
 
 .parallax-title2 {
     color: white;
+    text-shadow:
+    -1px -1px 0 #708090,
+    1px -1px 0 #708090,
+    -1px 1px 0 #708090,
+    1px 1px 0 #708090;
     margin: 5% 0 0 0 ;
     font-size: 7vw;
-    opacity: 0.9
+    opacity: 0.8
 }
+/* #708090 */
 
 .contact {
   text-align: center;
@@ -103,13 +118,23 @@ a:hover {
 
 }
 
+.spacer_thin {
+    margin: 0% 5% 0% 5%;
+
+}
+
 .spacer_paragraphe {
     margin: 0% 15% 5% 15%;
 
 }
 
+.spacer_paragraphe2 {
+    margin: 5% 15% 0% 15%;
+
+}
+
 .spacer_minus {
-    margin: 2% 0% 0% 0%;
+    margin: 2% 15% 0% 15%;
 
 }
 
@@ -167,6 +192,10 @@ a:hover {
 
 .logo_partners {
   width: 15%;
+}
+
+.logo_contact {
+  width: 8%;
 }
 
 
