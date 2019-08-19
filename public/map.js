@@ -1,4 +1,4 @@
-var map = L.map('map').setView([46.538518, 6.593337], 12);
+var map = L.map('map').setView([46.540000, 6.593337], 12);
 
 var pelle = L.icon({
     iconUrl: '/images/pelle_cut.png',
@@ -10,6 +10,14 @@ var pelle = L.icon({
 
 var courgette = L.icon({
     iconUrl: '/images/courgette_logo2.png',
+
+    iconSize:     [52, 40], // size of the icon
+
+
+});
+
+var courgette_NB = L.icon({
+    iconUrl: '/images/courgette_logo2_NB.png',
 
     iconSize:     [52, 40], // size of the icon
 
@@ -30,4 +38,8 @@ L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.marker([46.560167, 6.554194], {icon: pelle}).addTo(map);
-L.marker([46.521749, 6.632884], {icon: courgette}).addTo(map);
+L.marker([46.560167, 6.554194], {icon: courgette}).addTo(map);
+L.marker([46.521749, 6.632884], {icon: courgette_NB}).addTo(map);
+L.marker([46.542107, 6.609282], {icon: courgette}).addTo(map);
+L.marker([46.540737, 6.589845], {icon: courgette}).addTo(map);
+L.marker([46.558962, 6.594011], {icon: courgette}).addTo(map);

@@ -106,9 +106,26 @@ a:hover {
 
 .contact {
   text-align: center;
+
 }
 
+.contact_thin {
+  text-align: center;
+  margin: -10% 5% 0% 5%;
 
+}
+
+.contact_middle_thin {
+  text-align: center;
+  margin: -5% 5% 0% 5%;
+
+}
+
+.contact_middle {
+  text-align: center;
+  margin: -2% 5% 0% 5%;
+
+}
 
 .row{ display: flex;
   align-items: center;}
@@ -119,7 +136,7 @@ a:hover {
 }
 
 .spacer_thin {
-  padding-top: 0px;
+
     margin: 0% 5% 0% 5%;
 
 }
