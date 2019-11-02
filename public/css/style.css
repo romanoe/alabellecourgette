@@ -12,6 +12,20 @@ body {
 }
 
 
+.footer {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #1ECD97;
+  color: white;
+  text-align: center;
+  opacity: 0.8
+}
+.footer_margin {
+  margin: 15% 5% 15% 5% ;
+}
+
 p {
   font-family: Montserrat, sans-serif;
   text-align:justify;
@@ -117,7 +131,12 @@ a:hover {
 
 .contact_middle_thin {
   text-align: center;
-  margin: -5% 15% 0% 15%;
+  margin: -5% 0% 0% 0%;
+
+}
+.contact_zero {
+  text-align: center;
+  margin: 0% 0% 0% 0%;
 
 }
 
@@ -140,6 +159,17 @@ a:hover {
     margin: 0% 5% 0% 5%;
 
 }
+.spacer_thin2 {
+
+    margin: 0% 2% 0% 2%;
+
+}
+
+.spacer_test {
+
+    margin: 1% 5% 0% 5%;
+
+}
 
 .spacer_frontpage {
 
@@ -152,6 +182,11 @@ a:hover {
 
 }
 
+.spacer_paragraphe3 {
+    margin: 1% 15% 5% 15%;
+
+}
+
 .spacer_paragraphe2 {
     margin: 5% 15% 0% 15%;
 
@@ -159,6 +194,12 @@ a:hover {
 
 .spacer_minus {
     margin: 2% 15% 0% 15%;
+
+}
+
+.spacer_footer {
+
+    margin: 3% 15% 3% 15%;
 
 }
 
@@ -219,7 +260,8 @@ a:hover {
 }
 
 .logo_contact {
-  width: 8%;
+  margin: 2% 15% 0% 15%;
+  width: 14%;
 }
 
 

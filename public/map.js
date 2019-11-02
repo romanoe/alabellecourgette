@@ -39,7 +39,8 @@ L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 
 L.marker([46.560167, 6.554194], {icon: pelle}).addTo(map);
 L.marker([46.560167, 6.554194], {icon: courgette}).addTo(map);
-L.marker([46.521749, 6.632884], {icon: courgette_NB}).addTo(map);
-L.marker([46.542107, 6.609282], {icon: courgette}).addTo(map);
-L.marker([46.540737, 6.589845], {icon: courgette}).addTo(map);
-L.marker([46.558962, 6.594011], {icon: courgette}).addTo(map);
+L.marker([46.525716, 6.638512], {icon: courgette}).addTo(map);
+L.marker([46.542107, 6.609282], {icon: courgette_NB}).addTo(map);
+L.marker([46.528371, 6.614181], {icon: courgette_NB}).addTo(map);
+L.marker([46.540737, 6.589845], {icon: courgette_NB}).addTo(map);
+L.marker([46.558962, 6.594011], {icon: courgette_NB}).addTo(map);
