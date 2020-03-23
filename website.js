@@ -22,6 +22,10 @@ router.get("/contact",function(req,res){
   res.sendFile(path + "contact.html");
 });
 
+router.get("/onparledenous",function(req,res){
+  res.sendFile(path + "onparledenous.html");
+});
+
 
 router.get("/partenaires",function(req,res){
   res.sendFile(path + "partenaires.html");

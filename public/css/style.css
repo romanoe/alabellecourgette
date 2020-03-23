@@ -203,6 +203,25 @@ a:hover {
 
 }
 
+.spacer_matin {
+
+    margin: 3% 5% 3% 4.5%;
+
+}
+.spacer_24h {
+
+    margin: 3% 5% 3% 5%;
+
+}
+.spacer_tetn {
+
+    margin: 3% 5% 3% 4.6%;
+
+}
+.logo_articles {
+  width: 10r0%;
+}
+
 
 #logoNavBar{
     -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -258,6 +277,7 @@ a:hover {
 .logo_partners {
   width: 35%;
 }
+
 
 .logo_natetdec {
   width: 50%;
