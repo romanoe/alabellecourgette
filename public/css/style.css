@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:500');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 
@@ -359,6 +360,26 @@ section {
     content: "";
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
+}
+
+.card-body  {
+  text-align: left;
+  font-size: 70%;
+}
+
+.card-body a {
+  text-align: left;
+  font-size: 15px;
+}
+
+.date {
+  font-family: Roboto , sans-serif;
+  font-weight: bold;
+}
+
+.card-title {
+    font-family: Roboto , sans-serif;
+    font-weight: bold;
 }
 
 
