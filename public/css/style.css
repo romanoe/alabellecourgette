@@ -67,8 +67,13 @@ a:hover {
 .navbar-nav .nav-link {
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 5px;
 }
-
+.navbar-nav .nav-link2 {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
 
 
 
@@ -116,6 +121,18 @@ a:hover {
     margin: 5% 0 0 0 ;
     font-size: 7vw;
     opacity: 0.8
+}
+
+.parallax-title3 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #708090,
+    1px -1px 0 #708090,
+    -1px 1px 0 #708090,
+    1px 1px 0 #708090;
+    margin: 5% 0 0 0 ;
+    font-size: 7vw;
+    opacity: 0.85
 }
 /* #708090 */
 
@@ -260,6 +277,34 @@ a:hover {
 	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
   width: 200px;
 }
+
+.customButton2 {
+  display: inline;
+	border: 0px solid white;
+	border-radius: 10px;
+	background: #1ECD97;
+	color: white;
+	font-size: 17px;
+
+  height: 40px;
+	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  width: 190px;
+}
+.customButton3 {
+  display: inline;
+	border: 0px solid white;
+	border-radius: 0px;
+	background: #white;
+	color: #1ECD97;
+	font-size: 17px;
+
+  height: 40px;
+	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  width: 150px;
+}
+
 
 
 .customButton:hover {
