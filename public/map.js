@@ -31,9 +31,10 @@ var courgette_NB = L.icon({
 //
 //
 // });
+// https://tile.openstreetmap.org/${z}/${x}/${y}.png
+// https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png
 
-
-L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
