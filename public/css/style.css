@@ -191,7 +191,13 @@ a:hover {
 
 .spacer_frontpage {
 
-    margin: -2% 5% 0% 5%;
+    margin: -8% 5% 0% 5%;
+
+}
+
+.rotate {
+
+  transform: rotate(-20deg);
 
 }
 
@@ -324,9 +330,10 @@ a:hover {
 
 }
 
+
 .block img {
   height:  80%;
-  margin-top: 3%;
+  margin-top: 10%;
   margin-bottom: -10%;
 }
 
@@ -336,8 +343,8 @@ a:hover {
 }
 
 
-.logo_natetdec {
-  width: 50%;
+.logo_cyclit {
+  width: 33%;
 }
 
 .logo_contact {
