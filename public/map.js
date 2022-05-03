@@ -46,3 +46,5 @@ L.marker([46.528371, 6.614181], {icon: courgette_NB}).addTo(map);
 L.marker([46.540737, 6.589845], {icon: courgette_NB}).addTo(map);
 L.marker([46.527659, 6.624560], {icon: courgette_NB}).addTo(map);
 L.marker([46.51733160036773, 6.624798026675972], {icon: courgette_NB}).addTo(map);
+L.marker([46.557391136419874, 6.577419614203792], {icon: courgette_NB}).addTo(map);
+L.marker([46.54741867235658, 6.5557612060823285], {icon: courgette_NB}).addTo(map);
