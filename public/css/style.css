@@ -12,6 +12,10 @@ body {
     font-family: Montserrat , sans-serif;
 }
 
+.rounded_comite {
+  border-radius: 25px;
+
+}
 
 .footer {
   align-items: center;
